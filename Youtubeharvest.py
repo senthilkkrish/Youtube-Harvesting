@@ -34,7 +34,7 @@ Logfile.write ("Log Starting "+ repr(date_time) + '\n' )
 
 #filename='YH{current_date}.log'
 logging.basicConfig(
-    filename = 'testing.log',
+    filename = 'Error.log',
     level=logging.DEBUG,                  # Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',  # Log format
     datefmt='%Y-%m-%d %H:%M:%S'           # Date format
